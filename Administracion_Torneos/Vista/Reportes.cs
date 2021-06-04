@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Administracion_Torneos.Modelo;
 using Administracion_Torneos.BD;
-
+using AdminitracionDeTorneosP.View;
 
 namespace Administracion_Torneos.Vista
 {
@@ -102,6 +102,13 @@ namespace Administracion_Torneos.Vista
             Reporte_Disponibilidad disponibilidad =new  Reporte_Disponibilidad();
             disponibilidad.Show();
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ReporteEquipo disponibilidad = new ReporteEquipo();
+            disponibilidad.Show();
         }
     }
 }
