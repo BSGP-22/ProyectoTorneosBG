@@ -41,6 +41,7 @@ namespace Administracion_Torneos.Vista
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnUno
@@ -172,12 +173,23 @@ namespace Administracion_Torneos.Vista
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.button5.Location = new System.Drawing.Point(49, 364);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 64);
+            this.button5.TabIndex = 12;
+            this.button5.Text = "Reporte Jugadores";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
             // Reportes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(432, 364);
+            this.ClientSize = new System.Drawing.Size(448, 426);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -212,5 +224,6 @@ namespace Administracion_Torneos.Vista
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }
