@@ -30,8 +30,8 @@ namespace Administracion_Torneos.Vista
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.listUtilidades = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.listUtilidades)).BeginInit();
+            this.reporteJugadores = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.reporteJugadores)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -43,13 +43,13 @@ namespace Administracion_Torneos.Vista
             this.label1.TabIndex = 21;
             this.label1.Text = "REPORTE JUGADORES";
             // 
-            // listUtilidades
+            // reporteJugadores
             // 
-            this.listUtilidades.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.listUtilidades.Location = new System.Drawing.Point(31, 95);
-            this.listUtilidades.Name = "listUtilidades";
-            this.listUtilidades.Size = new System.Drawing.Size(757, 259);
-            this.listUtilidades.TabIndex = 22;
+            this.reporteJugadores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.reporteJugadores.Location = new System.Drawing.Point(31, 95);
+            this.reporteJugadores.Name = "reporteJugadores";
+            this.reporteJugadores.Size = new System.Drawing.Size(757, 259);
+            this.reporteJugadores.TabIndex = 22;
             // 
             // Reporte_Jugadores
             // 
@@ -57,11 +57,12 @@ namespace Administracion_Torneos.Vista
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.listUtilidades);
+            this.Controls.Add(this.reporteJugadores);
             this.Controls.Add(this.label1);
             this.Name = "Reporte_Jugadores";
             this.Text = "Reporte_Jugadores";
-            ((System.ComponentModel.ISupportInitialize)(this.listUtilidades)).EndInit();
+            this.Load += new System.EventHandler(this.Reporte_Jugadores_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.reporteJugadores)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -70,6 +71,6 @@ namespace Administracion_Torneos.Vista
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView listUtilidades;
+        private System.Windows.Forms.DataGridView reporteJugadores;
     }
 }
