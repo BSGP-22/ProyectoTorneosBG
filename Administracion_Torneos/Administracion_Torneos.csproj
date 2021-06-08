@@ -66,6 +66,7 @@
     <Compile Include="BD\ReportesDB.cs" />
     <Compile Include="BD\Reporte_Alquiler_Arbitros_DB.cs" />
     <Compile Include="BD\Reporte_Ingreso_Canchas_DB.cs" />
+    <Compile Include="BD\Reporte_Jugadores_BD.cs" />
     <Compile Include="BD\TarjetaDB.cs" />
     <Compile Include="BD\Usuarios_DB.cs" />
     <Compile Include="Modelo\AlquilerCanchas.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="Modelo\ReporteDisponibilidad.cs" />
     <Compile Include="Modelo\Reporte_Ingresos_Arbitro.cs" />
     <Compile Include="Modelo\Reporte_Ingreso_Canchas.cs" />
+    <Compile Include="Modelo\Reporte_Jugadores.cs" />
     <Compile Include="Modelo\Tarjeta.cs" />
     <Compile Include="Modelo\Torneo.cs" />
     <Compile Include="Modelo\Usuarios.cs" />

@@ -6,7 +6,65 @@ using System.Threading.Tasks;
 
 namespace Administracion_Torneos.Modelo
 {
-    class Reporte_Jugadores
+    public class Reporte_Jugadores
     {
+        public int Identificacion
+        {
+            get;
+            set;
+
+        }
+
+        public string Nombres
+        {
+            get;
+            set;
+
+        }
+
+        public string Apellidos
+        {
+            get;
+            set;
+
+        }
+
+        public DateTime Fecha_Nac
+        {
+            get;
+            set;
+
+        }
+        public string Direccion
+        {
+            get;
+            set;
+
+        }
+        public string Nacionalidad
+        {
+            get;
+            set;
+
+        }
+
+        public string Correo
+        {
+            get;
+            set;
+
+        }
+        public string Telefono
+        {
+            get;
+            set;
+
+        }
+        public string Menor_edad
+        {
+            get;
+            set;
+
+        }
     }
 }
