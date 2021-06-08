@@ -17,8 +17,9 @@ namespace Administracion_Torneos.Vista
         public Reporte_Jugadores()
         {
             InitializeComponent();
+            MostrarJugadores();
         }
-        public void MostrarHorarios()
+        public void MostrarJugadores()
         {
             reporteJugadores.DataSource = JugadoressContext.Mostrar_Jugadores();
         }
