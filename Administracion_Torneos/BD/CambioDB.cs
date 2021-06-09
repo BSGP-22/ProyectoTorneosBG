@@ -11,7 +11,7 @@ namespace Administracion_Torneos.BD
 {
    public class CambioDB
     {
-        private string connectionString = "Server=DESKTOP-Q5D2767\\SQLEXPRESS;Database=PROYECTO_TORNEOS1;User Id=Facturacion;Password=Facturacion;";
+        private string connectionString = "Server=DESKTOP-U4PFR0A\\SQLEXPRESS;Database=PROYECTO_TORNEOS1;User Id=Rogelio;Password=12345;";
         public void Buscar_Partido_combox(ComboBox cb)
         {
             string query = "exec getPartido";

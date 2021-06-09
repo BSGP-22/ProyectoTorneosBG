@@ -12,7 +12,7 @@ namespace Administracion_Torneos.BD
 {
     public class arbitroDB
     {
-        private string connectionstring = "Server=DESKTOP-Q5D2767\\SQLEXPRESS;Database=PROYECTO_TORNEOS1;User Id=Facturacion;Password=Facturacion;";
+        private string connectionstring = "Server=DESKTOP-U4PFR0A\\SQLEXPRESS;Database=PROYECTO_TORNEOS1;User Id=Rogelio;Password=12345;";
         SqlConnection conexion;
 
         //verifcar conexion

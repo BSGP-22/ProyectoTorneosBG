@@ -1,11 +1,8 @@
-drop database  Proyecto_AdministracionTorneosFutbol;
-go
+
 Create database PROYECTO_TORNEOS1
 go
 use PROYECTO_TORNEOS1
 go
-use bsgp
-
 
 --TABLA AMONESTACION
 CREATE TABLE AMONESTACION

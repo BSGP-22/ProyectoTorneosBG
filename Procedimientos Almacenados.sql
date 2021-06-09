@@ -1,6 +1,8 @@
 -- PROCEDIMIENTOS ALMACENADOS DE ARBITROS
 -- Vista
 use PROYECTO_TORNEOS1
+insert into ARBITRO
+
 create proc getArbitros
 as
     select * from ARBITRO
@@ -20,6 +22,7 @@ as
         @nacionalidad,@fechaNac,@correo,@rol,@arbitraje
     );
 go
+
 -- Actualizacion
 
 create proc actualizar_arbitros @DPI int, @nombre varchar(200),
@@ -1147,6 +1150,15 @@ alter table Usuarios
 add Id_Usuario int identity(1,1)
 
 exec BG_Mostrar_Usuarios
+Create table Usuarios (
+	Id_Usuario INT IDENTITY(1,1),
+	NOMBRE VARCHAR(200) NOT NULL,
+	APELLIDO VARCHAR(200) NOT NULL,
+	DPI BIGINT NOT NULL,
+	DIRECCION VARCHAR(200) NOT NULL,
+	PUESTO VARCHAR(200) NOT NULL,
+
+)
 
 -- Ingresar Usuarios 
 create Proc BG_Insertar_Usuarios @Nombre varchar(200),@Apellido varchar(200), @DPI bigint, @Direccion varchar(200), @Puesto varchar(200), @Telefono varchar(200), @Correo varchar(200),@Usuario varchar(200),@Clave varchar(200), @Activo varchar(1),@Rol varchar(200)
@@ -1247,3 +1259,9 @@ create proc verjugadores
 as
     select * from JUGADOR
 go
+
+CREATE PROC SP_GET_ARBITROS_GIT
+AS BEGIN
+	SELECT * FROM ARBITRO
+END
+GO

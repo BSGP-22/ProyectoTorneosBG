@@ -103,5 +103,12 @@ namespace Administracion_Torneos.Vista
             disponibilidad.Show();
 
         }
+
+        private void arbitrosGit_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            listadoArbitrosGit listadoArbitrosGit = new listadoArbitrosGit();
+            listadoArbitrosGit.Show();
+        }
     }
 }
