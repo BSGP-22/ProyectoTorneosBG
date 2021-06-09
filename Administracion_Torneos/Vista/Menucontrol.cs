@@ -183,5 +183,6 @@ namespace Administracion_Torneos.Vista
             bitacoraContext.Insertar_Datos(registro);
 
         }
+
     }
 }

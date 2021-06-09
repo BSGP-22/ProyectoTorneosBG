@@ -103,5 +103,11 @@ namespace Administracion_Torneos.Vista
             disponibilidad.Show();
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            reportecanchasgit reportecanchasgit = new reportecanchasgit();
+            reportecanchasgit.Show();
+        }
     }
 }
