@@ -1,5 +1,6 @@
 -- PROCEDIMIENTOS ALMACENADOS DE ARBITROS
 -- Vista
+
 use PROYECTO_TORNEOS1
 insert into ARBITRO
 
@@ -22,6 +23,11 @@ as
         @nacionalidad,@fechaNac,@correo,@rol,@arbitraje
     );
 go
+
+
+
+EXEC insertar_arbitros
+123212, 'Rafa', 'Matiaz', 'zona 1', 43453456, 'Guatemalteco', '2001/08/02', 'Rafa@gmail.com', 'arbitrocentral', 1
 
 -- Actualizacion
 
@@ -1105,7 +1111,7 @@ select * from usuarios
 	go
 	create proc  BG_reporte_Ingresos_canchas @fecha_inico date,@fecha_final date
 	as
-	select alquiler.No_Cancha,CANCHA.Nombre nombre_cancha,year(fecha)año ,MONTH(fecha)mes,DAY(fecha)dia,sum(pago)monto
+	select alquiler.No_Cancha,CANCHA.Nombre nombre_cancha,year(fecha)aÃ±o ,MONTH(fecha)mes,DAY(fecha)dia,sum(pago)monto
 	from alquiler
 	inner join CANCHA
 	on alquiler.No_Cancha=CANCHA.NoCancha
@@ -1118,7 +1124,7 @@ go
 
 create proc  BG_reporte_Ingreso_arbitro @fecha_inico date,@fecha_final date
 	as
-	select alquiler.DPI_Arbitro,arbitro.Nombre nombre_arbitro,arbitro.Apellidos apellido_arbitro,year(fecha)año ,MONTH(fecha)mes,DAY(fecha)dia,sum(PAGOARBITRO)monto
+	select alquiler.DPI_Arbitro,arbitro.Nombre nombre_arbitro,arbitro.Apellidos apellido_arbitro,year(fecha)aÃ±o ,MONTH(fecha)mes,DAY(fecha)dia,sum(PAGOARBITRO)monto
 	from alquiler
 	inner join arbitro
 	on alquiler.DPI_Arbitro=arbitro.DPI
@@ -1260,8 +1266,16 @@ as
     select * from JUGADOR
 go
 
+
 CREATE PROC SP_GET_ARBITROS_GIT
 AS BEGIN
 	SELECT * FROM ARBITRO
 END
 GO
+
+	create proc js_obtenercanchas
+	AS BEGIN
+		SELECT * FROM CANCHA
+	END 
+	GO
+

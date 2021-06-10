@@ -63,9 +63,9 @@ namespace Administracion_Torneos.Vista
             // btnTorneo
             // 
             this.btnTorneo.BackColor = System.Drawing.SystemColors.Window;
-            this.btnTorneo.Location = new System.Drawing.Point(102, 128);
+            this.btnTorneo.Location = new System.Drawing.Point(93, 95);
             this.btnTorneo.Name = "btnTorneo";
-            this.btnTorneo.Size = new System.Drawing.Size(93, 40);
+            this.btnTorneo.Size = new System.Drawing.Size(96, 49);
             this.btnTorneo.TabIndex = 2;
             this.btnTorneo.Text = "Torneo";
             this.btnTorneo.UseVisualStyleBackColor = false;
@@ -74,9 +74,9 @@ namespace Administracion_Torneos.Vista
             // btnEquipo
             // 
             this.btnEquipo.BackColor = System.Drawing.SystemColors.Window;
-            this.btnEquipo.Location = new System.Drawing.Point(263, 128);
+            this.btnEquipo.Location = new System.Drawing.Point(254, 95);
             this.btnEquipo.Name = "btnEquipo";
-            this.btnEquipo.Size = new System.Drawing.Size(96, 40);
+            this.btnEquipo.Size = new System.Drawing.Size(99, 49);
             this.btnEquipo.TabIndex = 3;
             this.btnEquipo.Text = "Equipo";
             this.btnEquipo.UseVisualStyleBackColor = false;
@@ -85,9 +85,9 @@ namespace Administracion_Torneos.Vista
             // btnEntrenador
             // 
             this.btnEntrenador.BackColor = System.Drawing.SystemColors.Window;
-            this.btnEntrenador.Location = new System.Drawing.Point(426, 128);
+            this.btnEntrenador.Location = new System.Drawing.Point(417, 95);
             this.btnEntrenador.Name = "btnEntrenador";
-            this.btnEntrenador.Size = new System.Drawing.Size(96, 40);
+            this.btnEntrenador.Size = new System.Drawing.Size(99, 49);
             this.btnEntrenador.TabIndex = 4;
             this.btnEntrenador.Text = "Entrenador";
             this.btnEntrenador.UseVisualStyleBackColor = false;
@@ -96,9 +96,9 @@ namespace Administracion_Torneos.Vista
             // btnArbitros
             // 
             this.btnArbitros.BackColor = System.Drawing.SystemColors.Window;
-            this.btnArbitros.Location = new System.Drawing.Point(102, 191);
+            this.btnArbitros.Location = new System.Drawing.Point(93, 158);
             this.btnArbitros.Name = "btnArbitros";
-            this.btnArbitros.Size = new System.Drawing.Size(93, 40);
+            this.btnArbitros.Size = new System.Drawing.Size(96, 49);
             this.btnArbitros.TabIndex = 5;
             this.btnArbitros.Text = "Arbitros";
             this.btnArbitros.UseVisualStyleBackColor = false;
@@ -107,9 +107,9 @@ namespace Administracion_Torneos.Vista
             // btnAmonestaciones
             // 
             this.btnAmonestaciones.BackColor = System.Drawing.SystemColors.Window;
-            this.btnAmonestaciones.Location = new System.Drawing.Point(263, 191);
+            this.btnAmonestaciones.Location = new System.Drawing.Point(254, 158);
             this.btnAmonestaciones.Name = "btnAmonestaciones";
-            this.btnAmonestaciones.Size = new System.Drawing.Size(96, 40);
+            this.btnAmonestaciones.Size = new System.Drawing.Size(99, 49);
             this.btnAmonestaciones.TabIndex = 6;
             this.btnAmonestaciones.Text = "Amonestaciones";
             this.btnAmonestaciones.UseVisualStyleBackColor = false;
@@ -118,9 +118,9 @@ namespace Administracion_Torneos.Vista
             // btnPagoAmonestaciones
             // 
             this.btnPagoAmonestaciones.BackColor = System.Drawing.SystemColors.Window;
-            this.btnPagoAmonestaciones.Location = new System.Drawing.Point(426, 191);
+            this.btnPagoAmonestaciones.Location = new System.Drawing.Point(417, 158);
             this.btnPagoAmonestaciones.Name = "btnPagoAmonestaciones";
-            this.btnPagoAmonestaciones.Size = new System.Drawing.Size(96, 40);
+            this.btnPagoAmonestaciones.Size = new System.Drawing.Size(99, 49);
             this.btnPagoAmonestaciones.TabIndex = 7;
             this.btnPagoAmonestaciones.Text = "Pago Amonestaciones";
             this.btnPagoAmonestaciones.UseVisualStyleBackColor = false;
@@ -129,9 +129,9 @@ namespace Administracion_Torneos.Vista
             // btnJugadores
             // 
             this.btnJugadores.BackColor = System.Drawing.SystemColors.Window;
-            this.btnJugadores.Location = new System.Drawing.Point(102, 255);
+            this.btnJugadores.Location = new System.Drawing.Point(93, 222);
             this.btnJugadores.Name = "btnJugadores";
-            this.btnJugadores.Size = new System.Drawing.Size(93, 40);
+            this.btnJugadores.Size = new System.Drawing.Size(96, 49);
             this.btnJugadores.TabIndex = 8;
             this.btnJugadores.Text = "Jugadores";
             this.btnJugadores.UseVisualStyleBackColor = false;
@@ -140,9 +140,9 @@ namespace Administracion_Torneos.Vista
             // btnCanchas
             // 
             this.btnCanchas.BackColor = System.Drawing.SystemColors.Window;
-            this.btnCanchas.Location = new System.Drawing.Point(263, 255);
+            this.btnCanchas.Location = new System.Drawing.Point(254, 222);
             this.btnCanchas.Name = "btnCanchas";
-            this.btnCanchas.Size = new System.Drawing.Size(96, 40);
+            this.btnCanchas.Size = new System.Drawing.Size(99, 49);
             this.btnCanchas.TabIndex = 9;
             this.btnCanchas.Text = "Canchas";
             this.btnCanchas.UseVisualStyleBackColor = false;
@@ -151,9 +151,9 @@ namespace Administracion_Torneos.Vista
             // btnReportes
             // 
             this.btnReportes.BackColor = System.Drawing.SystemColors.Window;
-            this.btnReportes.Location = new System.Drawing.Point(426, 255);
+            this.btnReportes.Location = new System.Drawing.Point(417, 222);
             this.btnReportes.Name = "btnReportes";
-            this.btnReportes.Size = new System.Drawing.Size(96, 40);
+            this.btnReportes.Size = new System.Drawing.Size(99, 49);
             this.btnReportes.TabIndex = 10;
             this.btnReportes.Text = "Reportes";
             this.btnReportes.UseVisualStyleBackColor = false;
@@ -196,9 +196,9 @@ namespace Administracion_Torneos.Vista
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.Window;
-            this.button2.Location = new System.Drawing.Point(102, 317);
+            this.button2.Location = new System.Drawing.Point(93, 284);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(93, 40);
+            this.button2.Size = new System.Drawing.Size(96, 49);
             this.button2.TabIndex = 14;
             this.button2.Text = "Alquiler Cancha";
             this.button2.UseVisualStyleBackColor = false;
@@ -207,9 +207,9 @@ namespace Administracion_Torneos.Vista
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.Window;
-            this.button3.Location = new System.Drawing.Point(263, 317);
+            this.button3.Location = new System.Drawing.Point(254, 284);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(93, 40);
+            this.button3.Size = new System.Drawing.Size(96, 49);
             this.button3.TabIndex = 15;
             this.button3.Text = "Agregar Usuarios";
             this.button3.UseVisualStyleBackColor = false;
@@ -218,9 +218,9 @@ namespace Administracion_Torneos.Vista
             // button4
             // 
             this.button4.BackColor = System.Drawing.SystemColors.Window;
-            this.button4.Location = new System.Drawing.Point(426, 317);
+            this.button4.Location = new System.Drawing.Point(417, 284);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(96, 40);
+            this.button4.Size = new System.Drawing.Size(99, 49);
             this.button4.TabIndex = 16;
             this.button4.Text = "Horarios";
             this.button4.UseVisualStyleBackColor = false;
