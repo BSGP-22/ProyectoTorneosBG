@@ -176,11 +176,26 @@ namespace Administracion_Torneos.Vista
             // button5
             // 
             this.button5.BackColor = System.Drawing.SystemColors.AppWorkspace;
+
             this.button5.Location = new System.Drawing.Point(168, 322);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(87, 36);
             this.button5.TabIndex = 12;
             this.button5.Text = "Reporte Disponibilidad";
+
+            this.button5.Location = new System.Drawing.Point(367, 37);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 64);
+            this.button5.TabIndex = 12;
+            this.button5.Text = "Reporte Equipo";
+
+            this.button5.Location = new System.Drawing.Point(49, 364);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 64);
+            this.button5.TabIndex = 12;
+            this.button5.Text = "Reporte Jugadores";
+
+
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -189,7 +204,15 @@ namespace Administracion_Torneos.Vista
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+
             this.ClientSize = new System.Drawing.Size(507, 432);
+
+
+            this.ClientSize = new System.Drawing.Size(454, 364);
+
+            this.ClientSize = new System.Drawing.Size(448, 426);
+
+
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);

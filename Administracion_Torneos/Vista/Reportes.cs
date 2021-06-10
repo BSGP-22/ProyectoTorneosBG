@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Administracion_Torneos.Modelo;
 using Administracion_Torneos.BD;
-
+using AdminitracionDeTorneosP.View;
 
 namespace Administracion_Torneos.Vista
 {
@@ -106,8 +106,19 @@ namespace Administracion_Torneos.Vista
 
         private void button5_Click(object sender, EventArgs e)
         {
+
             reportecanchasgit reportecanchasgit = new reportecanchasgit();
             reportecanchasgit.Show();
+
+            this.Hide();
+
+            ReporteEquipo disponibilidad = new ReporteEquipo();
+            disponibilidad.Show();
+
+            Reporte_Jugadores jugadoress = new Reporte_Jugadores();
+            jugadoress.Show();
+
+
         }
     }
 }

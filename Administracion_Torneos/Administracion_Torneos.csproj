@@ -66,6 +66,7 @@
     <Compile Include="BD\ReportesDB.cs" />
     <Compile Include="BD\Reporte_Alquiler_Arbitros_DB.cs" />
     <Compile Include="BD\Reporte_Ingreso_Canchas_DB.cs" />
+    <Compile Include="BD\Reporte_Jugadores_BD.cs" />
     <Compile Include="BD\TarjetaDB.cs" />
     <Compile Include="BD\Usuarios_DB.cs" />
     <Compile Include="Modelo\AlquilerCanchas.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="Modelo\ReporteDisponibilidad.cs" />
     <Compile Include="Modelo\Reporte_Ingresos_Arbitro.cs" />
     <Compile Include="Modelo\Reporte_Ingreso_Canchas.cs" />
+    <Compile Include="Modelo\Reporte_Jugadores.cs" />
     <Compile Include="Modelo\Tarjeta.cs" />
     <Compile Include="Modelo\Torneo.cs" />
     <Compile Include="Modelo\Usuarios.cs" />
@@ -189,11 +191,19 @@
     <Compile Include="Vista\ReporteCanchas.Designer.cs">
       <DependentUpon>ReporteCanchas.cs</DependentUpon>
     </Compile>
+
     <Compile Include="Vista\reportecanchasgit.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Vista\reportecanchasgit.Designer.cs">
       <DependentUpon>reportecanchasgit.cs</DependentUpon>
+
+    <Compile Include="Vista\ReporteEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\ReporteEquipo.Designer.cs">
+      <DependentUpon>ReporteEquipo.cs</DependentUpon>
+
     </Compile>
     <Compile Include="Vista\ReporteIngresosCancha.cs">
       <SubType>Form</SubType>
@@ -230,6 +240,12 @@
     </Compile>
     <Compile Include="Vista\Reporte_Disponibilidad.Designer.cs">
       <DependentUpon>Reporte_Disponibilidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Reporte_Jugadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Reporte_Jugadores.Designer.cs">
+      <DependentUpon>Reporte_Jugadores.cs</DependentUpon>
     </Compile>
     <Compile Include="Vista\ResporteIngresoArbitros.cs">
       <SubType>Form</SubType>
@@ -358,8 +374,13 @@
     <EmbeddedResource Include="Vista\ReporteCanchas.resx">
       <DependentUpon>ReporteCanchas.cs</DependentUpon>
     </EmbeddedResource>
+
     <EmbeddedResource Include="Vista\reportecanchasgit.resx">
       <DependentUpon>reportecanchasgit.cs</DependentUpon>
+
+    <EmbeddedResource Include="Vista\ReporteEquipo.resx">
+      <DependentUpon>ReporteEquipo.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="Vista\ReporteIngresosCancha.resx">
       <DependentUpon>ReporteIngresosCancha.cs</DependentUpon>
@@ -378,6 +399,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vista\Reporte_Disponibilidad.resx">
       <DependentUpon>Reporte_Disponibilidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Reporte_Jugadores.resx">
+      <DependentUpon>Reporte_Jugadores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vista\ResporteIngresoArbitros.resx">
       <DependentUpon>ResporteIngresoArbitros.cs</DependentUpon>
