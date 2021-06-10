@@ -11,7 +11,7 @@ namespace Administracion_Torneos.BD
 {
     public class Usuarios_DB
     {
-        private string connectionString = "Server=DESKTOP-Q5D2767\\SQLEXPRESS;Database=PROYECTO_TORNEOS1;User Id=Facturacion;Password=Facturacion;";
+        private string connectionString = "Server=LAPTOP-0A8H41G8;Database=PROYECTO_TORNEOS1;User Id=Capacitation;Password=manager;";
 
         public List<Usuarios> manejousuarios()
         {

@@ -191,11 +191,19 @@
     <Compile Include="Vista\ReporteCanchas.Designer.cs">
       <DependentUpon>ReporteCanchas.cs</DependentUpon>
     </Compile>
+
+    <Compile Include="Vista\reportecanchasgit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\reportecanchasgit.Designer.cs">
+      <DependentUpon>reportecanchasgit.cs</DependentUpon>
+
     <Compile Include="Vista\ReporteEquipo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Vista\ReporteEquipo.Designer.cs">
       <DependentUpon>ReporteEquipo.cs</DependentUpon>
+
     </Compile>
     <Compile Include="Vista\ReporteIngresosCancha.cs">
       <SubType>Form</SubType>
@@ -366,8 +374,13 @@
     <EmbeddedResource Include="Vista\ReporteCanchas.resx">
       <DependentUpon>ReporteCanchas.cs</DependentUpon>
     </EmbeddedResource>
+
+    <EmbeddedResource Include="Vista\reportecanchasgit.resx">
+      <DependentUpon>reportecanchasgit.cs</DependentUpon>
+
     <EmbeddedResource Include="Vista\ReporteEquipo.resx">
       <DependentUpon>ReporteEquipo.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="Vista\ReporteIngresosCancha.resx">
       <DependentUpon>ReporteIngresosCancha.cs</DependentUpon>

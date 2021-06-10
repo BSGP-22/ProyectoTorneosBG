@@ -1,5 +1,6 @@
 -- PROCEDIMIENTOS ALMACENADOS DE ARBITROS
 -- Vista
+
 use PROYECTO_TORNEOS1
 create proc getArbitros
 as
@@ -20,6 +21,8 @@ as
         @nacionalidad,@fechaNac,@correo,@rol,@arbitraje
     );
 go
+EXEC insertar_arbitros
+123212, 'Rafa', 'Matiaz', 'zona 1', 43453456, 'Guatemalteco', '2001/08/02', 'Rafa@gmail.com', 'arbitrocentral', 1
 -- Actualizacion
 
 create proc actualizar_arbitros @DPI int, @nombre varchar(200),
@@ -1247,3 +1250,9 @@ create proc verjugadores
 as
     select * from JUGADOR
 go
+
+	create proc js_obtenercanchas
+	AS BEGIN
+		SELECT * FROM CANCHA
+	END 
+	GO

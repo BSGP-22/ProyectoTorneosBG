@@ -33,6 +33,7 @@ CREATE TABLE ARBITRO
 alter table ARBITRO 
 add Arbitraje decimal (8, 2)
 go
+
 --TABLA JUGADOR
 CREATE TABLE JUGADOR
 (
@@ -113,6 +114,9 @@ alter table cancha
 add Precio decimal (8, 2)
 
 go
+
+insert into CANCHA
+(Nombre, capacidad, estatus, Precio)values('Los pinos','11','disponible','100')
 --TABLA TORNEO_EQUIPO 
 CREATE TABLE TORNEO_EQUIPO
 (

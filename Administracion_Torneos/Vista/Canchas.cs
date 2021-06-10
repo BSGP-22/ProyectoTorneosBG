@@ -12,6 +12,7 @@ using Administracion_Torneos.Modelo;
 
 namespace Administracion_Torneos.Vista
 {
+
     public partial class Canchas : Form
     {
         public CanchaDb canchaContext = new CanchaDb();

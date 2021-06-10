@@ -106,6 +106,10 @@ namespace Administracion_Torneos.Vista
 
         private void button5_Click(object sender, EventArgs e)
         {
+
+            reportecanchasgit reportecanchasgit = new reportecanchasgit();
+            reportecanchasgit.Show();
+
             this.Hide();
 
             ReporteEquipo disponibilidad = new ReporteEquipo();
@@ -113,6 +117,7 @@ namespace Administracion_Torneos.Vista
 
             Reporte_Jugadores jugadoress = new Reporte_Jugadores();
             jugadoress.Show();
+
 
         }
     }

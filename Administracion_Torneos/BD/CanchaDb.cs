@@ -12,7 +12,7 @@ namespace Administracion_Torneos.BD
 {
     public class CanchaDb
     {
-        private string connectionString = "Server=DESKTOP-Q5D2767\\SQLEXPRESS;Database=PROYECTO_TORNEOS1;User Id=Facturacion;Password=Facturacion;";
+        private string connectionString = "Server=LAPTOP-0A8H41G8;Database=PROYECTO_TORNEOS1;User Id=Capacitation;Password=manager;";
         public Cancha GetCancha(int Nocancha)
         {
             Cancha nCancha = new Cancha();
