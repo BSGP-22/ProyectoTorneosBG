@@ -103,5 +103,12 @@ namespace Administracion_Torneos.Vista
             disponibilidad.Show();
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Reporte_Jugadores jugadoress = new Reporte_Jugadores();
+            jugadoress.Show();
+        }
     }
 }
