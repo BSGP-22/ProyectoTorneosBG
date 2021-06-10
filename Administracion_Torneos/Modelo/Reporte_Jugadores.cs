@@ -60,7 +60,7 @@ namespace Administracion_Torneos.Modelo
             set;
 
         }
-        public string Menor_edad
+        public bool Menor_edad
         {
             get;
             set;

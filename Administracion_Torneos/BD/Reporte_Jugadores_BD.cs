@@ -40,7 +40,7 @@ namespace Administracion_Torneos.BD
                         ContenidoHorario.Nacionalidad = reader.GetString(5);
                         ContenidoHorario.Correo = reader.GetString(6);
                         ContenidoHorario.Telefono = reader.GetString(7);
-                        ContenidoHorario.Menor_edad = reader.GetString(8);
+                        ContenidoHorario.Menor_edad = reader.GetBoolean(8);
                         
 
 
