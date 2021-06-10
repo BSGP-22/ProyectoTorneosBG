@@ -107,8 +107,13 @@ namespace Administracion_Torneos.Vista
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
+
             ReporteEquipo disponibilidad = new ReporteEquipo();
             disponibilidad.Show();
+
+            Reporte_Jugadores jugadoress = new Reporte_Jugadores();
+            jugadoress.Show();
+
         }
     }
 }
